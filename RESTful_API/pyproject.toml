@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "restful-api"
+version = "0.1.0"
+description = ""
+authors = ["ankitraj20616 <ankitrajthakur803@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.112.1"
+sqlalchemy = "^2.0.32"
+uvicorn = "^0.30.6"
+pymysql = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
